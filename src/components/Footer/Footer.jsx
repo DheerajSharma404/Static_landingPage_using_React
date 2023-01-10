@@ -5,18 +5,24 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer id="footer">
       <div className="container">
-        <img className="footer__img" src="./src/assets/logo1.jpg" alt="" />
-        <span>LOGO</span>
-        <img className="footer__img" src="./src/assets/logo1.jpg" alt="" />
-        <div className="footer__links">
-          <a href="#about">About</a>
-          <a href="#project">Project</a>
-          <a href="#contact">Contacts</a>
+        <div className="footer">
+          <div className="footer__logo">
+            <img className="footer__img" src="./src/assets/logo1.jpg" alt="" />
+            <span>LOGO</span>
+            <img className="footer__img" src="./src/assets/logo1.jpg" alt="" />
+          </div>
+          <div className="footer__links">
+            <a href="#about">About</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contacts</a>
+          </div>
+          <p className="copyright__text">
+            &copy; All right reserved Since 2022{" "}
+          </p>
         </div>
       </div>
-      <p className="copyright__text">&copy; All right reserved Since 2022 </p>
     </footer>
   );
 };

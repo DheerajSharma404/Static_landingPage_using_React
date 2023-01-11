@@ -1,5 +1,4 @@
 .container {
-  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +14,6 @@
   border: 1px solid black;
   border-radius: 24px;
 }
-
 .logo__img {
   width: 30px;
   height: 30px;
@@ -43,4 +41,35 @@
   font-weight: 500;
   padding: 10px;
   color: #000;
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.5px solid rgba(0, 0, 0, 0.201);
+  }
+
+  .logo__img {
+    width: 30px;
+    height: 30px;
+    border-radius: 24px;
+  }
+  .logo {
+    font-size: 0.8rem;
+  }
+  .nav__links {
+  }
+
+  .nav__link {
+    font-size: 0.6rem;
+    margin-left: 10px;
+  }
 }

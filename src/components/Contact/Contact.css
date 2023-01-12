@@ -40,7 +40,38 @@ form {
   padding: 24px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
+  .container {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact {
+    width: 80vw;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+  }
+  .email,
+  .textarea {
+    width: 340px;
+    height: 60px;
+    font-size: 1.2rem;
+    padding: 24px;
+    border: none;
+    border-radius: 16px;
+    font-weight: 500;
+    margin: 20px;
+  }
+  .submit__btn {
+    width: 160px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
   .container {
     height: fit-content;
     display: flex;

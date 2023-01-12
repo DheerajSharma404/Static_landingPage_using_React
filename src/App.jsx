@@ -1,16 +1,25 @@
 import React from "react";
 
-import { NavBar, Header, Main, Footer } from "./components/index";
+import {
+  NavBar,
+  Header,
+  About,
+  Discord,
+  Contact,
+  Footer,
+} from "./components/index";
 
 //* Styles
 import "./App.css";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className='App'>
       <NavBar />
       <Header />
-      <Main />
+      <About />
+      <Discord />
+      <Contact />
       <Footer />
     </div>
   );

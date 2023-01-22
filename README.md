@@ -1,1 +1,1 @@
-#Static Page for Practicing HTML + CSS + intro to React.js
+# Static Page for Practicing HTML + CSS + intro to React.js
